@@ -1,0 +1,32 @@
+	.st0{fill:#CCCCCC;}
+	.st1{fill:#999999;}
+	.st2{fill:url(#SVGID_1_);}
+	.st3{fill:url(#SVGID_2_);}
+
+#backsection
+    {
+        width: 100%;
+        animation: first_transition_in 4.5s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+    }
+
+#midsection
+{
+    width: 100%;
+    animation: first_transition_in 4.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.7s;
+}
+
+@keyframes first_transition_in
+    {
+        from
+            {
+                width: 100%;
+            }
+        to
+            {
+                width: 0%;
+            }
+    }
